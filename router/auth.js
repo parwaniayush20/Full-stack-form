@@ -6,10 +6,6 @@ const authenticate = require("../middleware/authenticate")
 require("../db/connection");
 const User = require("../model/userSchema");
 
-router.get("/", (req, res) => {
-    res.send("Hello. Everything is working!");
-})
-
 
 // Save Data Using Async Await:
 
